@@ -1,0 +1,2 @@
+name,displayName,description,exemptionCategory,expiresOn,scope,policyAssignmentId,policyDefinitionReferenceIds,resourceSelectors,metadata,assignmentScopeValidation
+13f1762996484c42834b3083,Dev - Allowed locations for resource groups,,Waiver,,/providers/Microsoft.Management/managementGroups/Dev,/providers/Microsoft.Management/managementGroups/MG-11/providers/Microsoft.Authorization/policyAssignments/241b7f2483274a7eb2a3fb96,,,"{""deployedBy"":null,""epacMetadata"":{}}",
