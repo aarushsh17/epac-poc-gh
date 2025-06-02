@@ -5,11 +5,6 @@
     "policyId": "/providers/Microsoft.Authorization/policyDefinitions/f85eb0dd-92ee-40e9-8a76-db25a507d6d3",
     "displayName": "Kubernetes cluster containers should only use allowed ProcMountType"
   },
-  "assignment": {
-    "name": "a7F9kLmP2Qw3XyZ8rT6bV1cD",
-    "displayName": "Kubernetes cluster containers should only use allowed ProcMountType",
-    "description": ""
-  },
   "metadata": {
     "parameterScopes": {}
   },
@@ -21,7 +16,7 @@
     ]
   },
   "managedIdentityLocations": {
-    "MG-11": "centralindia"
+    "MG-11": "uaenorth"
   },
   "definitionVersion": "8.*.*"
 }

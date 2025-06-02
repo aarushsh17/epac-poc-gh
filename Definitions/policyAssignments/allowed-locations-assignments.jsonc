@@ -15,7 +15,7 @@
   },
   "parameters": {
     "listOfAllowedLocations": [
-      "eastus"
+      "uaenorth"
     ]
   },
   "overrides": [],
@@ -26,7 +26,7 @@
     ]
   },
   "managedIdentityLocations": {
-    "MG-11": "centralindia"
+    "MG-11": "uaenorth"
   },
   "definitionVersion": "1.*.*"
 }
