@@ -22,7 +22,7 @@
       "pacSelector": "epac-dev",
       "cloud": "AzureCloud",
       "tenantId": "d4b6d2e0-a0b2-4639-b45c-4017fdd91a7c",
-      "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/MG-11",
+      "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/Dev",
       "desiredState": {
         "strategy": "ownedOnly",
         "excludedPolicyDefinitions": [],
