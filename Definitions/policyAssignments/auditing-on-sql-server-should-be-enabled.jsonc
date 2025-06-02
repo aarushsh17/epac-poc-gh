@@ -24,7 +24,7 @@
   "managedIdentityLocations": {
     "tenant01": "centralindia"
   },
-  "definitionVersion": "2.*.*"
+  "definitionVersion": "2.0.0"
 }
 
 
