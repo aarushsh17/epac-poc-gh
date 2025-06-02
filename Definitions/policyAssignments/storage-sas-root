@@ -7,7 +7,7 @@
   },
   "assignment": {
     "name": "",
-    "displayName": "Storage accounts should have shared access signature (SAS) policies configured",
+    "displayName": "Storage accounts should have shared access signature (SAS) policies configured - Tenant Root",
     "description": ""
   },
   "metadata": {
