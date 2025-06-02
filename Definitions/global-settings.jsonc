@@ -1,9 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/global-settings-schema.json",
-  "pacOwnerId": "86a5c30d-ce0a-4f13-9954-667d49697247",
+  "pacOwnerId": "ca7aedec-a33c-44e8-b062-d39e4f8865af",
   "pacEnvironments": [
     {
-      "pacSelector": "tenant01",
+      "pacSelector": "MG-11",
       "cloud": "AzureCloud",
       "tenantId": "d4b6d2e0-a0b2-4639-b45c-4017fdd91a7c",
       "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/MG-11",
@@ -12,7 +12,7 @@
         "excludedPolicyDefinitions": [],
         "excludedPolicySetDefinitions": [],
         "excludedPolicyAssignments": [],
-        "keepDfcSecurityAssignments": false,
+        "keepDfcSecurityAssignments": true,
         "excludedScopes": []
       },
       "globalNotScopes": [],
