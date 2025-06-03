@@ -23,5 +23,5 @@
   "managedIdentityLocations": {
     "tenant": "uaenorth"
   },
-  "definitionVersion": "1.*.*"
+  "definitionVersion": "2.*.*"
 }
