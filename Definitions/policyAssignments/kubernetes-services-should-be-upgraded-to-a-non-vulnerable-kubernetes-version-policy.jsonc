@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/policy-assignment-schema.json",
+  "nodeName": "/root",
+  "definitionEntry": {
+    "policyId": "/providers/Microsoft.Authorization/policyDefinitions/fb893a29-21bb-418c-a157-e99480ec364c",
+    "displayName": "Kubernetes Services should be upgraded to a non-vulnerable Kubernetes version"
+  },
+  "assignment": {
+    "name": "05b6f6f601ec498da05ae8df",
+    "displayName": "Kubernetes Services should be upgraded to a non-vulnerable Kubernetes version",
+    "description": ""
+  },
+  "metadata": {
+    "parameterScopes": {}
+  },
+  "overrides": [],
+  "resourceSelectors": [],
+  "scope": {
+    "tenant": [
+      "/providers/Microsoft.Management/managementGroups/epac-MG-11-dev"
+    ]
+  },
+  "definitionVersion": "1.*.*"
+}
