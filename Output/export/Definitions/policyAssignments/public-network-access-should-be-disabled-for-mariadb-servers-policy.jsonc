@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/policy-assignment-schema.json",
+  "nodeName": "/root",
+  "definitionEntry": {
+    "policyId": "/providers/Microsoft.Authorization/policyDefinitions/fdccbe47-f3e3-4213-ad5d-ea459b2fa077",
+    "displayName": "Public network access should be disabled for MariaDB servers"
+  },
+  "assignment": {
+    "name": "8d58425c1bc5465589c0df72",
+    "displayName": "Public network access should be disabled for MariaDB servers",
+    "description": ""
+  },
+  "metadata": {
+    "parameterScopes": {}
+  },
+  "overrides": [],
+  "resourceSelectors": [],
+  "scope": {
+    "tenant01": [
+      "/providers/Microsoft.Management/managementGroups/MG-11"
+    ]
+  },
+  "definitionVersion": "2.*.*"
+}

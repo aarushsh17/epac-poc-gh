@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/policy-assignment-schema.json",
+  "nodeName": "/root",
+  "definitionEntry": {
+    "policyId": "/providers/Microsoft.Authorization/policyDefinitions/f9d614c5-c173-4d56-95a7-b4437057d193",
+    "displayName": "Function apps should use the latest TLS version"
+  },
+  "assignment": {
+    "name": "ffd7cc508e11474d8d16d502",
+    "displayName": "Function apps should use the latest TLS version",
+    "description": ""
+  },
+  "metadata": {
+    "parameterScopes": {}
+  },
+  "overrides": [],
+  "resourceSelectors": [],
+  "scope": {
+    "tenant01": [
+      "/providers/Microsoft.Management/managementGroups/epac-MG-11-dev"
+    ]
+  },
+  "definitionVersion": "2.*.*"
+}
