@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/policy-assignment-schema.json",
+  "nodeName": "/root",
+  "definitionEntry": {
+    "policyId": "/providers/microsoft.authorization/policydefinitions/a6fb4358-5bf4-4ad7-ba82-2cd2f41ce5e9",
+    "displayName": "Auditing in SQL server"
+  },
+  "assignment": {
+    "name": "sql-audit-chala-bro",
+    "displayName": "Auditing in SQL server",
+    "description": ""
+  },
+  "metadata": {
+    "parameterScopes": {}
+  },
+  "overrides": [],
+  "resourceSelectors": [],
+  "scope": {
+    "tenant": [
+      "/providers/Microsoft.Management/managementGroups/MG-11"
+    ]
+  },
+  "managedIdentityLocations": {
+    "tenant": "uaenorth"
+  },
+  "definitionVersion": "1.*.*"
+}
