@@ -10,7 +10,7 @@
     "displayName": "Kubernetes cluster containers should only use allowed ProcMountType",
     "description": ""
   },
-//why not working bro?????
+//why not working bro?????....why why why???????
   "metadata": {
     "parameterScopes": {}
   },
