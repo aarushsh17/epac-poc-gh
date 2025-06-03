@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/policy-assignment-schema.json",
+  "nodeName": "/root",
+  "definitionEntry": {
+    "policyId": "/providers/Microsoft.Authorization/policyDefinitions/bc1b984e-ddae-40cc-801a-050a030e4fbe",
+    "displayName": "Storage accounts should have shared access signature (SAS) policies configured"
+  },
+  "assignment": {
+    "name": "7635d40258294aa5b17d9ac0",
+    "displayName": "Storage accounts should have shared access signature (SAS) policies configured",
+    "description": ""
+  },
+  "metadata": {
+    "assignedBy": "epac/ca7aedec-a33c-44e8-b062-d39e4f8865af/tenant01",
+    "parameterScopes": {}
+  },
+  "scope": {
+    "tenant": [
+      "/providers/Microsoft.Management/managementGroups/Dev"
+    ]
+  },
+  "definitionVersion": "1.*.*"
+}

@@ -1,0 +1,21 @@
+{
+  "createMainCaf3Hierarchy": "No",
+  "initialTenantId": "d4b6d2e0-a0b2-4639-b45c-4017fdd91a7c",
+  "pacOwnerId": "06251fcf-b8ae-41ce-84b4-ce3f544cb310",
+  "initialTenantCloud": "AzureCloud",
+  "initialTenantIntermediateRoot": "MG-11",
+  "epacParent": "d4b6d2e0-a0b2-4639-b45c-4017fdd91a7c",
+  "managedIdAssignmentLocation": "uaenorth",
+  "mainTenantMainPacSelectorName": "tenant",
+  "epacPrefix": "epac-",
+  "epacSuffix": "-dev",
+  "EpacDevelopmentRoot": "epac-MG-11-dev",
+  "importExistingPolicies": "Yes",
+  "importPciDssPolicies": "No",
+  "importNist80053Policies": "No",
+  "importAdditionalPolicySets": "",
+  "codeExecutionType": "Module",
+  "pipelinePlatform": "GithubActions",
+  "pipelineFlow": "Github",
+  "pipelineCustomPath": "NotApplicable"
+}
