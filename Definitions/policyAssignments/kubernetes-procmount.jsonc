@@ -6,18 +6,17 @@
     "displayName": "Kubernetes cluster containers should only use allowed ProcMountType"
   },
   "assignment": {
-    "name": "645362f1bc65452a8695e366",
+    "name": "288487647189457c92c4787b",
     "displayName": "Kubernetes cluster containers should only use allowed ProcMountType",
     "description": ""
   },
-//why not working bro?????....why why why???????
   "metadata": {
     "parameterScopes": {}
   },
   "overrides": [],
   "resourceSelectors": [],
   "scope": {
-    "MG-11": [
+    "tenant": [
       "/providers/Microsoft.Management/managementGroups/MG-11"
     ]
   },
